@@ -1,3 +1,5 @@
+/**** Fundamental ****/
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,11 @@
 body {
     font-family: 'Fredoka', sans-serif;
 }
+
+
+/***** End Fundamental *****/
+
+/***** Title and intro *****/
 
 header {
     text-align: center;
@@ -24,6 +31,10 @@ header>p {
     margin-bottom: 20px;
 }
 
+/***** End Title and intro *****/
+
+/***** Boxes and info *****/
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -31,7 +42,7 @@ header>p {
 }
 
 .schema>.boxes {
-    width: calc(100% /3 - 30px);
+    width: calc(100% /3 - 40px);
     height: 80px;
     border: 2px solid rgb(196, 196, 196);
     float: left;
@@ -67,3 +78,5 @@ a {
 a {
     margin-left: 6px;
 }
+
+/***** End Boxes and info *****/
